@@ -74,7 +74,7 @@ const login = (req,res)=>{
 }
 
 const userlist =(req,res)=>{
-    user.find((err,userData)=>{
+    User.find((err,userData)=>{
         if(userData) {
             res.status(200).send({user: userData});
         }
@@ -83,7 +83,7 @@ const userlist =(req,res)=>{
 
 const getuserid = (req,res)=> {
     let id = req.params["id"];
-    user.findById(id,(err,userData)=> {
+    User.findById(id,(err,userData)=> {
         if (userData) {
             res.status(200).send({user : userData})
         }else{
