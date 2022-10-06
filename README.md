@@ -1,3 +1,3 @@
 # proveedores2
 
-##proyecto para constructora GCG
+##proyecto para constructora GCG.
