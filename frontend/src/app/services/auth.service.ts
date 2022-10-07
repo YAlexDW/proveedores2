@@ -52,11 +52,11 @@ export class AuthService {
     this.token = token;
   }
 
-  private getToken():void{
+  private getToken():string{
     if(!this.token){
-      //this.token = localStorage.getItem("ACCESS_TOKEN");
+      this.token = localStorage.getItem("ACCESS_TOKEN");
     }
-    //return this.token;
+    return this.token;
   }
 }
 
