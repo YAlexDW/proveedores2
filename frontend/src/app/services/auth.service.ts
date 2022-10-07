@@ -10,7 +10,7 @@ import { Observable, BehaviorSubject } from 'rxjs';
 
 @Injectable()
 export class AuthService {
-  private token? :string;
+  private token : any;
 
 
   AUTH_SERVER: string = 'http://localhost:3000';
