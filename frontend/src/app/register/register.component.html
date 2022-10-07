@@ -1,0 +1,135 @@
+   <!--  <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4"> -->
+        <form #userForm="ngForm" (ngSubmit)="registerUser(userForm)">
+            <div
+            class="tab-pane fade show active"
+            id="home"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+            >
+            <div class="card">
+                <div class="card-body">
+                <div class="row mt-4">
+                    <div class="container col-lg-8">
+                    <div class="container row">
+                        <div class="col-lg-9 form-group">
+                        <label><b>nombre completo</b></label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            autocomplete="new-text"
+                            placeholder="nombre"
+                            name="name"
+                            #name="ngModel"
+                            [(ngModel)]="user.name"
+                            required
+                        />
+                        </div>
+                        <div class="col-lg-9 form-group">
+                        <label><b>nit</b></label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            autocomplete="nit"
+                            placeholder="Ingrese Su Nit"
+                            name="nit"
+                            #nit="ngModel"
+                            [(ngModel)]="user.nit"
+                            required
+                        />
+                        </div>
+
+                        <div class="col-lg-9 form-group">
+                        <label><b>Correo De Facturacion</b></label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Ingrese_correo_facturacion"
+                            name="billing_email"
+                            #billing_email="ngModel"
+                            [(ngModel)]="user.billing_email"
+                            required
+                        />
+                        </div>
+                    
+                        <div class="col-lg-9 form-group">
+                        <div class="form-group">
+                            <label class="form-label"><b>Contacto telefonico</b></label>
+                            <input
+                            type="number"
+                            class="form-control"
+                            autocomplete="numero telefonico"
+                            placeholder="ingrese su numero"
+                            name="phoneNumber"
+                            #phoneNumber="ngModel"
+                            [(ngModel)]="user.phoneNumber"
+                            required
+                        />
+                        </div>
+                        </div>
+
+                        <div class="col-lg-9 form-group">
+                        <label><b>Dirección</b></label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            autocomplete="new-text"
+                            placeholder="ingrese su Dirección"
+                            name="adress"
+                            #adress="ngModel"
+                            [(ngModel)]="user.adress"
+                            required
+                        />
+                        </div>
+                        <div class="col-lg-9 form-group">
+                        <label><b>Ingrese Su Contraseña</b></label>
+                        <input
+                            type="password"
+                            class="form-control"
+                            autocomplete="new-text"
+                            placeholder="Contraseña"
+                            name="password"
+                            #password="ngModel"
+                            [(ngModel)]="user.password"
+                            required
+                        />
+                        </div>
+                        <div class="col-lg-9 form-group">
+                        <label><b>Ingrese su documento de identificacion</b></label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            autocomplete="new-text"
+                            placeholder="identificacion"
+                            name="identification"
+                            #identification="ngModel"
+                            [(ngModel)]="user.identification"
+                            required
+                        />
+                        </div>
+                        <div class="col-lg-9 form-group">
+                            <label><b>Ingrese su Correo Electronico</b></label>
+                            <input
+                            type="email"
+                            class="form-control"
+                            autocomplete="new-text"
+                            placeholder="correo Electronico"
+                            name="contac_email"
+                            #contac_email="ngModel"
+                            [(ngModel)]="user.contac_email"
+                            required
+                            />
+                        </div>
+                        <div class="col-lg-12 form-group padTop">
+                        <button class="btn btn-primary btn-lg btnSubmit" type="submit">
+                            Crear 
+                        </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </form> 
+        
+<!-- </main> -->
