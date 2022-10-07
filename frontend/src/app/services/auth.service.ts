@@ -1,5 +1,5 @@
-import { Injectable } from '@angular/core';
-import { }
+import { Injectable} from '@angular/core';
+import { NgProbeToken } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { UserI } from '../models/user';
 import { JwtResponseI } from '../models/jwt-response';
@@ -10,8 +10,10 @@ import { Observable, BehaviorSubject } from 'rxjs';
 
 @Injectable()
 export class AuthService {
-  private token:string;
-  AUTH_SERVER: string = 'http://localhost:3000'
+  private token? :string;
+
+
+  AUTH_SERVER: string = 'http://localhost:3000';
   authSubject = new BehaviorSubject(false);
 
   constructor(private httpClient: HttpClient) { }
@@ -50,11 +52,11 @@ export class AuthService {
     this.token = token;
   }
 
-  private getToken():string{
+  private getToken():void{
     if(!this.token){
-      this.token =localStorage.getItem("ACCESS_TOKEN");
-
+      //this.token = localStorage.getItem("ACCESS_TOKEN");
     }
-    return this.token;
+    //return this.token;
   }
 }
+
