@@ -80,7 +80,7 @@ body {
 }
 
 .login input[type="submit"]:hover {
-  background: #17c;
+  background: rgb(250, 178, 44);
 }
 
 /* Buttons' focus effect */
