@@ -11,7 +11,7 @@ body {
   text-align: center;
   font-size: 40px;
   color: #fff;
-  margin-top: 100px;
+
   font-weight: 100;
 }
 
@@ -23,6 +23,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
+  color: #f8f1f1;
 }
 
 .Idontknow .card{
