@@ -8,16 +8,23 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { AdminComponent } from './admin/admin.component';
 import { LogOutComponent } from './log-out/log-out.component';
+import { AuthService } from '../services/auth.service';
+import { Type1Component } from './type1/type1.component';
+import { Type2Component } from './type2/type2.component';
+import { Type3Component } from './type3/type3.component';
+import { DataComponent } from './data/data.component';
+import { MyUserComponent } from './my-user/my-user.component';
 
 
 
 @NgModule({
-  declarations: [RegisterComponent, LoginComponent, HomeComponent, AdminComponent, LogOutComponent],
+  declarations: [RegisterComponent, LoginComponent, HomeComponent, AdminComponent, LogOutComponent, Type1Component, Type2Component, Type3Component, DataComponent, MyUserComponent],
   imports: [
     CommonModule,
     FormsModule,
     AuthRoutingModule,
     HttpClientModule
   ]
+
 })
 export class AuthModule { }

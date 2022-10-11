@@ -18,10 +18,6 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onLogin(form):void{
-    this.authService.login(form.value).subscribe(res => {
-      this.router.navigateByUrl('/auth/admin')
-    });
-  }
+
 
 }
