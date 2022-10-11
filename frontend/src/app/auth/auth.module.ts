@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AuthRoutingModule} from './auth-routing.module';
 import { RegisterComponent } from './register/register.component';
-import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { AdminComponent } from './admin/admin.component';
 import { LogOutComponent } from './log-out/log-out.component';
@@ -18,7 +17,7 @@ import { MyUserComponent } from './my-user/my-user.component';
 
 
 @NgModule({
-  declarations: [RegisterComponent, LoginComponent, HomeComponent, AdminComponent, LogOutComponent, Type1Component, Type2Component, Type3Component, DataComponent, MyUserComponent],
+  declarations: [RegisterComponent,  HomeComponent, AdminComponent, LogOutComponent, Type1Component, Type2Component, Type3Component, DataComponent, MyUserComponent],
   imports: [
     CommonModule,
     FormsModule,
