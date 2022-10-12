@@ -13,11 +13,13 @@ import { Type2Component } from './type2/type2.component';
 import { Type3Component } from './type3/type3.component';
 import { DataComponent } from './data/data.component';
 import { MyUserComponent } from './my-user/my-user.component';
+import { UsersComponent } from './users/users.component';
+import { NewsComponent } from './news/news.component';
 
 
 
 @NgModule({
-  declarations: [RegisterComponent,  HomeComponent, AdminComponent, LogOutComponent, Type1Component, Type2Component, Type3Component, DataComponent, MyUserComponent],
+  declarations: [RegisterComponent,  HomeComponent, AdminComponent, LogOutComponent, Type1Component, Type2Component, Type3Component, DataComponent, MyUserComponent, UsersComponent, NewsComponent],
   imports: [
     CommonModule,
     FormsModule,
