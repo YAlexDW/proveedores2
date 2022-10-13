@@ -7,6 +7,9 @@ body {
   line-height: 1.6;
 }
 
+.banner2{
+  background-color: 60%;
+}
 .title{
   text-align: center;
   font-size: 40px;
@@ -225,6 +228,20 @@ body.is-touch #banner {
   background-size: cover;
   line-height: 1.75;
   text-align: center;
+
+}
+#banner .banner2:before{
+  width: 100%;
+  height: 60%;
+  content:'';
+	position: absolute;
+  margin-top: 10;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+
+
 }
 
   #banner h2 {
@@ -236,7 +253,7 @@ body.is-touch #banner {
   }
 
   #banner p {
-      color: rgb(5, 5, 5);
+      color: rgb(255, 249, 249);
       font-size: 1.5em;
       margin-bottom: 1.75em;
       text-transform: uppercase;
