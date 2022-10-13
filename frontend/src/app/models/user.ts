@@ -9,6 +9,7 @@ export class User {
     public password: string = '',
     public identification: string = '',
     public contac_email: string = '',
-    public getToken: boolean = false
+    public getToken: boolean = false,
+    public typeUser: number = 1
     ) {}
 }

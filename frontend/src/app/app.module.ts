@@ -8,12 +8,14 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { AuthService } from './service/auth.service';
 import { FormsModule } from '@angular/forms';
+import { UploadfilesComponent } from './components/uploadfiles/uploadfiles.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    UploadfilesComponent
   ],
   imports: [
     BrowserModule,

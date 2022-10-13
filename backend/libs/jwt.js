@@ -13,6 +13,7 @@ exports.createToken=(user)=>{
         identification: user.identification,
         contac_email: user.contac_email,
         password: user.password,
+        typeUser: user.typeUser,
         iat:moment().unix(),
     };
     return jwt.encode(payload,secret);
