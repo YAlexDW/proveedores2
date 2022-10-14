@@ -24,7 +24,7 @@ const routes: Routes = [
   { path : 'myUser', component: MyUserComponent},
   { path : 'login' , component: LoginComponent},
   { path : 'news' , component: NewsComponent},
-  { path : 'login2' , component : Login2Component}
+  { path : 'login2' , component : Login2Component},
   { path : 'users' , component : UsersComponent}
 
 ];
