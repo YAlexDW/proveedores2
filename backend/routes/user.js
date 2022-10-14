@@ -1,4 +1,4 @@
-let express= require("express");
+/*let express= require("express");
 const { model } = require("mongoose");
 let User= require("../controllers/user");
 
@@ -11,4 +11,4 @@ api.put("/user/edituser/:id", User.edituser);
 api.get("/getuserid/:id", User.getuserid);
 api.delete("/user/deleteuser/:id", User.deleteuser);
 
-module.exports= api;
+module.exports= api;*/
