@@ -1,3 +1,17 @@
+<header id="inicio" class="alt">
+  <h1><strong><a >Proveedores</a></strong> by CONSTRUCTORA GCG</h1>
+  <nav id="nav">
+      <ul>
+        <br>
+        <br>
+          <li><a href="auth/login">Login</a></li>
+          <li><a href="auth/register">Register</a></li>
+      </ul>
+  </nav>
+</header>
+<br><br><br><br><br>
+
+
 <div class = "container">
   <div class="login">
     <div class="login-triangle"></div>
@@ -35,10 +49,20 @@
       </p>
       <p>
         <input
+          type="email"
+          class="form-control"
+          autocomplete="new-text"
+          placeholder="Email de contacto"
+          name="contac_email"
+          required
+        >
+      </p>
+      <p>
+        <input
           type="number"
           class="form-control"
           autocomplete="numero telefonico"
-          placeholder="ingrese su numero"
+          placeholder="Numero Telefonico"
           name="phoneNumber"
           required
           >
@@ -54,14 +78,20 @@
       </p>
       <p>
         <input
-          type="email"
-          class="form-control"
-          autocomplete="new-text"
-          placeholder="Email"
-          name="contac_email"
-          required
-
-        >
+        type="text"
+        class="form-control"
+        autocomplete="new-text"
+        placeholder="Representante Legal"
+        name="legal_presentation"
+        required>
+      </p>
+      <p>
+        <input
+        type="number"
+        class="form-control"
+        placeholder="Número de identificación"
+        name="identification"
+        required>
       </p>
       <p>
         <input
@@ -73,36 +103,23 @@
         required>
       </p>
       <p>
-        <input
-        type="text"
-        class="form-control"
-        autocomplete="new-text"
-        placeholder="Representante Legal"
-        name="password"
-        required>
-      </p>
-      <p>
-        <input
-        type="number"
-        class="form-control"
-        placeholder="Número de identificación"
-        name="id_number"
-        required>
-      </p>
-      <p>
-
-          <select id="usuario" name="usuario">
-            <option disable selected>Seleccione el tipo de usuario</option>
-            <option value="Service_contractor">Contratista de prestación de servicios</option>
-            <option value="Activity_Contractor">Contratista de Actividad</option>
-            <option value="Supplier_inputs_services">Proveedor de Insumos o servicios</option>
-          </select>
+        TIPO DE USUARIOS
+        <br>
+        1. Contratista de prestación de servicios
+        <br>
+        2. Contratista de Actividad
+        <br>
+        3. Proveedor de Insumos o servicios
+        <br>
+          <input type="number"
+          class="form-control"
+          placeholder="Ingrese su tipo de usuario"
+          name="typeUser">
         </p>
 
 
-      <p>
-        <input type="checkbox" name="verification" id="verification1">
-        <label for="verification1">Acepto las politicas</label>
+      <p id="link">
+        <a href="https://www.constructoragcg.com/">...</a>
       </p>
       <p>
         <input type="submit" placeholder="Log Up">

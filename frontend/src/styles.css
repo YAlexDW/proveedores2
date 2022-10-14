@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
 body {
-  background: rgb(81, 101, 121);
+  background: rgb(255, 213, 164);
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.03em;
   line-height: 1.6;
@@ -13,7 +13,7 @@ body {
 .title{
   text-align: center;
   font-size: 40px;
-  color: #fff;
+  color: rgb(255, 172, 78);
 
   font-weight: 100;
 }
@@ -166,7 +166,7 @@ body {
 }
 
   #inicio h1 {
-      color: #000000;
+      color: #fa7000;
       font-weight: 400;
       height: inherit;
       left: 1.25em;
@@ -200,14 +200,14 @@ body {
                   -webkit-transition: color 0.2s ease-in-out;
                   -ms-transition: color 0.2s ease-in-out;
                   transition: color 0.2s ease-in-out;
-                  color: rgb(0, 0, 0);
+                  color: rgb(245, 153, 67);
                   display: inline-block;
                   text-decoration: none;
               }
 
 
   #inicio.alt {
-      background-color: white;
+      background-color: rgb(0, 0, 0);
       border: 0;
       box-shadow: none;
       height: 5.25em;
@@ -384,4 +384,8 @@ table {
   background-color: #ff6005;
   text-align: center;
 
+}
+
+.login-container .form .link{
+  text-align: center;
 }
