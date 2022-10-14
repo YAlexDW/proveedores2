@@ -2,25 +2,26 @@
     "name": "backend",
     "version": "1.0.0",
     "description": "",
-    "main": "server.js",
+    "main": "index.js",
     "scripts": {
-      "start": "nodemon server.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "start": "nodemon index.js"
     },
     "author": "yimmyDW & mnnq",
     "license": "ISC",
     "dependencies": {
-      "bcrypt-nodejs": "^0.0.3",
-      "body-parser": "^1.20.0",
-      "connect-multiparty": "^2.2.0",
-      "express": "^4.18.1",
-      "jsonwebtoken": "^8.5.1",
-      "jwt-simple": "^0.5.6",
-      "moment": "^2.29.4",
-      "mongoose": "^6.6.3"
+        "bcrypt-nodejs": "^0.0.3",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.1",
+        "connect-multiparty": "^2.2.0",
+        
+        "Express": "^3.0.1",
+        "jsonwebtoken": "^8.5.1",
+        "jwt-simple": "^0.5.6",
+        "moment": "^2.29.4",
+        "mongoose": "^6.6.5",
+        "Router": "^2.1.0"
     },
-    "devDependencies":{
-      "nodemon": "^2.0.20"
+    "devDependencies": {
+        "nodemon": "^2.0.20"
     }
-  }
-  
+}
