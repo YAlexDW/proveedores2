@@ -1,8 +1,8 @@
 import { Injectable} from '@angular/core';
 import { NgProbeToken } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { UserI } from '../models/user';
-import { JwtResponseI } from '../models/jwt-response';
+import { UserI } from '../Models/user';
+import { JwtResponseI } from '../Models/jwt-response';
 import { tap } from 'rxjs';
 import { Observable, BehaviorSubject } from 'rxjs';
 import { Location } from '@angular/common';
