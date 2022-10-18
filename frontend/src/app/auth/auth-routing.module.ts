@@ -13,6 +13,7 @@ import { RegisterComponent } from './register/register.component';
 import { AdminComponent } from './admin/admin.component';
 import { TypeUserComponent } from './type-user/type-user.component';
 import { MyUserComponent } from './my-user/my-user.component';
+import { MyTestComponent } from './my-test/my-test.component';
 
 const routes: Routes = [
   { path : 'admin' , component : AdminComponent},
@@ -27,7 +28,8 @@ const routes: Routes = [
   { path : 'myUser' ,  component : MyUserComponent},
   { path : 'news' , component : NewsComponent},
   { path : 'register' , component : RegisterComponent},
-  { path : 'typeUser' , component: TypeUserComponent}
+  { path : 'typeUser' , component: TypeUserComponent},
+  { path : 'myTest' , component: MyTestComponent}
 ];
 
 @NgModule({
