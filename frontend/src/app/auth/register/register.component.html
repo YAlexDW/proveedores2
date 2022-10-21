@@ -1,1 +1,111 @@
-<p>register works!</p>
+
+<div class = "container">
+  <div class="login">
+    <div class="login-triangle"></div>
+
+
+
+    <h2 class="login-header">log Up</h2>
+
+    <form #frmLogin="ngForm" class=" login-container" id="form" >
+      <p>
+        <input type="text"
+        placeholder="Name"
+        class="form-control"
+        autocomplete="new-text"
+        name="name"
+        required>
+      </p>
+      <p>
+        <input
+          type="text"
+          placeholder="Nit"
+          class="form-control"
+          autocomplete="nit"
+          name="nit"
+          required>
+      </p>
+      <p>
+        <input
+        type="text"
+        class="form-control"
+        placeholder="Correo facturacion"
+        name="billing_email"
+        required
+        >
+      </p>
+      <p>
+        <input
+          type="email"
+          class="form-control"
+          autocomplete="new-text"
+          placeholder="Email de contacto"
+          name="contac_email"
+          required
+        >
+      </p>
+      <p>
+        <input
+          type="number"
+          class="form-control"
+          autocomplete="numero telefonico"
+          placeholder="Numero Telefonico"
+          name="phoneNumber"
+          required
+          >
+      </p>
+      <p>
+        <input type="text"
+        class="form-control"
+        autocomplete="new-text"
+        placeholder="ingrese su Dirección"
+        name="adress"
+        required
+      >
+      </p>
+      <p>
+        <input
+        type="text"
+        class="form-control"
+        autocomplete="new-text"
+        placeholder="Representante Legal"
+        name="legal_presentation"
+        required>
+      </p>
+      <p>
+        <input
+        type="number"
+        class="form-control"
+        placeholder="Número de identificación"
+        name="identification"
+        required>
+      </p>
+      <p>
+        <input
+        type="password"
+        class="form-control"
+        autocomplete="new-text"
+        placeholder="Password"
+        name="password"
+        required>
+      </p>
+      <p>
+        TIPO DE USUARIOS
+        <br>
+        1. Contratista de prestación de servicios
+        <br>
+        2. Contratista de Actividad
+        <br>
+        3. Proveedor de Insumos o servicios
+        <br>
+          <input type="number"
+          class="form-control"
+          placeholder="Ingrese su tipo de usuario"
+          name="typeUser">
+        </p>
+
+      <p>
+        <input type="submit" placeholder="Log Up">
+    </form>
+  </div>
+</div>
