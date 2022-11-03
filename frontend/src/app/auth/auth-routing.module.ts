@@ -14,6 +14,7 @@ import { AdminComponent } from './admin/admin.component';
 import { TypeUserComponent } from './type-user/type-user.component';
 import { MyUserComponent } from './my-user/my-user.component';
 import { MyTestComponent } from './my-test/my-test.component';
+import { GaleryComponent } from './galery/galery.component';
 
 const routes: Routes = [
   { path : 'admin' , component : AdminComponent},
@@ -29,7 +30,8 @@ const routes: Routes = [
   { path : 'news' , component : NewsComponent},
   { path : 'register' , component : RegisterComponent},
   { path : 'typeUser' , component: TypeUserComponent},
-  { path : 'myTest' , component: MyTestComponent}
+  { path : 'myTest' , component: MyTestComponent},
+  { path : 'galery' , component : GaleryComponent}
 ];
 
 @NgModule({

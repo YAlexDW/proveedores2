@@ -17,6 +17,8 @@ import { LoadComponent } from './load/load.component';
 import { LogoutComponent } from './logout/logout.component';
 import { NewsComponent } from './news/news.component';
 import { MyTestComponent } from './my-test/my-test.component';
+import { GaleryComponent } from './galery/galery.component';
+import { BoxComponent } from './box/box.component';
 
 
 
@@ -35,7 +37,9 @@ import { MyTestComponent } from './my-test/my-test.component';
     LoadComponent,
     LogoutComponent,
     NewsComponent,
-    MyTestComponent
+    MyTestComponent,
+    GaleryComponent,
+    BoxComponent
   ],
   imports: [
     CommonModule,

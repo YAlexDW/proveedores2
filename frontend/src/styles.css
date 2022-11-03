@@ -195,13 +195,13 @@
   width: 0;
   margin-right: auto;
   margin-left: auto;
-  border: 12px solid transparent;
+  border: 7px solid transparent;
   border-bottom-color: rgb(250, 127, 45);
 }
 
 .login-header {
   background: rgb(0, 0, 0);
-  padding: 20px;
+  padding: 10px;
   font-size: 1.4em;
   font-weight: normal;
   text-align: center;
@@ -211,7 +211,7 @@
 
 .login-container {
   background: #ebebeb;
-  padding: 12px;
+  padding: 5px;
 }
 
 /* Every row inside .login-container is defined with p tags */
@@ -317,15 +317,21 @@
   color: #ff7300;
 
 }
+.izquierda{
+  text-align: right;
+  left: 0;
+  right: V 0 0 auto;
+}
 .h1galeria{
   font-weight: 400;
-  text-align: center;
+  text-align:center;
   padding: 20px 0;
   font-size: 40px;
 }
 
 .linea{
   background: #c10000;
+
   height: 5px;
   width: 100%;
   display: block;
@@ -353,8 +359,8 @@
 }
 
 .galeria img{
-  width: 100%;
-  height: 300px;
+  width: 50%;
+  height: 150px;
   vertical-align: top;
   object-fit: cover;
   transition: transform 0.5s;
