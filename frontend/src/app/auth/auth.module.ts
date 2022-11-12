@@ -19,6 +19,11 @@ import { NewsComponent } from './news/news.component';
 import { MyTestComponent } from './my-test/my-test.component';
 import { GaleryComponent } from './galery/galery.component';
 import { BoxComponent } from './box/box.component';
+import { BannerComponent } from './banner/banner.component';
+import { BotonComponent } from './boton/boton.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { Header2Component } from './header2/header2.component';
+import { StarComponent } from './star/star.component';
 
 
 
@@ -39,7 +44,12 @@ import { BoxComponent } from './box/box.component';
     NewsComponent,
     MyTestComponent,
     GaleryComponent,
-    BoxComponent
+    BoxComponent,
+    BannerComponent,
+    BotonComponent,
+    InicioComponent,
+    Header2Component,
+    StarComponent
   ],
   imports: [
     CommonModule,

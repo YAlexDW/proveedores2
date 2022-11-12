@@ -15,23 +15,17 @@ import { TypeUserComponent } from './type-user/type-user.component';
 import { MyUserComponent } from './my-user/my-user.component';
 import { MyTestComponent } from './my-test/my-test.component';
 import { GaleryComponent } from './galery/galery.component';
+import { StarComponent } from './star/star.component';
 
 const routes: Routes = [
   { path : 'admin' , component : AdminComponent},
   { path : 'data' , component : DataComponent},
-  { path : 'footer' , component : FooterComponent},
-  { path : 'gcg' , component : GCGComponent},
-  { path: 'header' , component : HeaderComponent},
-  { path : 'home' , component : HomeComponent},
   { path : 'load' , component : LoadComponent},
   { path : 'login' , component : LoginComponent },
-  { path : 'logout' , component : LogoutComponent},
   { path : 'myUser' ,  component : MyUserComponent},
-  { path : 'news' , component : NewsComponent},
   { path : 'register' , component : RegisterComponent},
-  { path : 'typeUser' , component: TypeUserComponent},
   { path : 'myTest' , component: MyTestComponent},
-  { path : 'galery' , component : GaleryComponent}
+  { path : 'star' , component: StarComponent},
 ];
 
 @NgModule({
