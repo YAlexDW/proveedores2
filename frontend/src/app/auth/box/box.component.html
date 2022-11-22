@@ -37,12 +37,12 @@
 
             <h2 class="login-header">Inicia Sesion</h2>
 
-            <form  class=" login-container" >
+            <form  #frmLogin="ngForm" class=" login-container" (ngSubmit)="onLOgin(frmLogin)">
               <p>
-                <input type="email" name="email" placeholder="Email" ngModel required="">
+                <input type="email" name="email" placeholder="Email" ngModel required>
               </p>
               <p>
-                <input type="password" name="password" placeholder="Password" ngModel required="">
+                <input type="password" name="password" placeholder="Password" ngModel required>
               </p>
               <p>
                 <input type="checkbox">

@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Route, Router } from '@angular/router';
+import { AuthService } from 'src/app/services/auth.service';
+import { UserI } from 'src/app/Models/user';
 
 @Component({
   selector: 'app-galery',
@@ -7,9 +10,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GaleryComponent implements OnInit {
 
-  constructor() { }
+  constructor(private authService: AuthService, private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  onRegister(form:any):void{
+    this.authService.register(form.value).subscribe(res=>{
+      this.router.navigateByUrl('/auth/login');
+    });
   }
 
 }

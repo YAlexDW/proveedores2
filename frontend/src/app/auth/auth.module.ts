@@ -24,6 +24,7 @@ import { BotonComponent } from './boton/boton.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { Header2Component } from './header2/header2.component';
 import { StarComponent } from './star/star.component';
+import { AuthService } from '../services/auth.service';
 
 
 
@@ -56,6 +57,7 @@ import { StarComponent } from './star/star.component';
     FormsModule,
     AuthRoutingModule,
     HttpClientModule
-  ]
+  ],
+  providers:[AuthService]
 })
 export class AuthModule { }
